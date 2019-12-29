@@ -1,0 +1,10 @@
+<text class="text">服务项目:中国</text>
+<view class="border-line"></view>
+<text class="text">到店日期:2018-01-25</text>
+<view class="border-line"></view>
+<text class="text">到店时间:12:00</text>
+<view class="border-line"></view>
+<text class="text">留言</text>
+<input class="input-text" type="text"></input>
+<view class="border-line"></view>
+<button class="btn1" bindtap="goto()">立即预约</button>

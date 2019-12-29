@@ -1,0 +1,81 @@
+.tab-gray{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background: rgba(128, 128, 128, 0.247);
+  flex-direction: row;
+}
+
+.tab-text{
+  padding-top: 3px;
+  padding-left: 50px;
+  width: 33%;
+  
+}
+
+
+.initview{
+  height: 100vh;
+}
+
+.swpiper{
+  height: 100vh;
+}
+
+.sitem{
+  /* height: 100vh; */
+}
+
+
+.wares{
+  padding-top: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ware-one{
+  width: 20%;
+}
+
+.ware-pic{
+  margin-left:15px;
+  margin-top:5px;
+  height: 50%;
+  width: 80%;
+}
+
+.ware-two{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.ware-text-contex{
+  margin-left: 20px;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.ware-text-price{
+  color: red;
+}
+
+.ware-three{
+  margin-left: 70px;
+
+}
+
+.ware-button{
+  position: fixed;
+  right: 30px;
+  height: 37px;
+  width: 70px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  /* background: skyblue; */
+  color:rgba(255, 0, 0, 0.548); 
+  justify-items: center;
+  border-color:1px rgba(255, 0, 0, 0.562)
+}

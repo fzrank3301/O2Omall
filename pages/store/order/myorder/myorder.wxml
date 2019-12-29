@@ -1,0 +1,68 @@
+<view class="body">
+
+  <!-- text -->
+  <view class="tab-gray">
+    <view class="tab-text">全部</view>
+    <view class="tab-text">待付款</view>
+    <view class="tab-text">配送中</view>
+  </view>
+
+
+
+  <!-- swiper -->
+  <view class="initview">
+    <swiper class="swpiper">
+      <swiper-item class="sitem">
+      <block wx:for="{{message}}">
+      
+     
+        <view class="wares">
+          <view class="ware-one">
+            <image class="ware-pic" src="{{item.pic}}"></image>
+          </view>
+          <view class="ware-two">
+            <text class="ware-text-context">{{item.desc}}</text>
+            <text class="ware-text-price">Y{{item.price}}</text>
+          </view>
+          <view class="ware-three">
+            <button class="ware-button">购买</button>
+          </view>
+        </view>
+
+
+         </block>
+      </swiper-item>
+      <swiper-item>
+        <view class="wares">
+          <view class="ware-one">
+            <image class="ware-pic" src="/res/manager/tabs/bg1.jpg"></image>
+          </view>
+          <view class="ware-two">
+            <text class="ware-text-context">openstack课程</text>
+            <text class="ware-text-price">Y120</text>
+          </view>
+          <view class="ware-three">
+            <button class="ware-button">购买</button>
+          </view>
+        </view>
+        </swiper-item>
+        <swiper-item>
+        <view class="wares">
+          <view class="ware-one">
+            <image class="ware-pic" src="/res/manager/tabs/bg2.jpg"></image>
+          </view>
+          <view class="ware-two">
+            <text class="ware-text-context">大数据课程</text>
+            <text class="ware-text-price">Y120</text>
+          </view>
+          <view class="ware-three">
+            <button class="ware-button">购买</button>
+          </view>
+        </view>
+        </swiper-item>
+    </swiper>
+  
+      
+
+    </view>
+  </view>
