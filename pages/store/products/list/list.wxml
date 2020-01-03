@@ -57,7 +57,8 @@
     <text class="ware-text-price">￥{{item.price}}</text>
   </view>
   <view class="ware-three">
-    <button class="ware-button">购买</button>
+  <navigator url="pages/store/products/detail/detail"></navigator>
+    <button class="ware-button" bindtap="godetails">购买</button>
   </view>
 </view>
 </block>

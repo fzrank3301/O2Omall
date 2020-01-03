@@ -1,0 +1,41 @@
+<view class="top-img">
+  <image class="top-img-context" src="/res/icons/profile_bg.png"></image>
+  <image class="erweima" src="/res/icons/ewm.png"></image>
+  <view class="top-text-1">admin</view>
+  <view class="top-text-2">会员卡号:192015658546</view>
+</view>
+
+<view class="border-line"></view>
+
+<view class="middle">
+  <view class="blance">
+    <image class="mid-img" src="/res/icons/1.png"></image>
+    <view class="text">余额</view>
+    <view class="money">￥10</view>
+    <view class="charge">充值</view>
+  </view>
+  <view class="border-line-2"></view>
+</view>
+
+
+<view class="list">
+  <view class="list-f">
+    <image class="list-pic" src="/res/icons/2.png"></image>
+    <view class="list-text">消费记录</view>
+    <image class="list-row" src="/res/icons/right.png"></image>
+  </view>
+  <view class="border-line-3"></view>
+    <view class="list-f">
+    <image class="list-pic" src="/res/icons/3.png"></image>
+    <view class="list-text">充值记录</view>
+    <image class="list-row" src="/res/icons/right.png"></image>
+  </view>
+  <view class="border-line-3"></view>
+    <view class="list-f">
+    <image class="list-pic" src="/res/icons/4.png"></image>
+    <view class="list-text">我的资料</view>
+    <image class="list-row" src="/res/icons/right.png"></image>
+  </view>
+</view>
+
+

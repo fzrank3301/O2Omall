@@ -7,4 +7,4 @@
 <text class="text">留言</text>
 <input class="input-text" type="text"></input>
 <view class="border-line"></view>
-<button class="btn1" bindtap="goto()">立即预约</button>
+<button class="btn1" bindtap="goto">立即预约</button>

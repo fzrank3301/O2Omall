@@ -25,5 +25,16 @@ Page({
   },
   onShareAppMessage: function () {
     console.log("onShareAppMessage")
+  },
+  gotobook:function(){
+    wx.navigateTo({
+      url: '/pages/store/order/detail/detail',
+      success:function(res){
+        console.log("success!");
+      },
+      fail:function(res){
+        console.log("failed!");
+      }
+    })
   }
 })

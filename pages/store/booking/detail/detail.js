@@ -26,8 +26,15 @@ Page({
     console.log("onShareAppMessage")
   },
   goto:function(){
-   wx.switchTab({
-     url: 'pages/store/order/myorder/myorder',
-   })
+  try{
+
+    wx.switchTab({
+      url: 'pages/store/order/myorder/myorder'
+    })
+
+  }
+  catch(e){
+    console.log(e.message);
+  }
   }
 })

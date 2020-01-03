@@ -1,0 +1,23 @@
+<view class="top">
+  <image class="top-img" src="/res/manager/tabs/bg1.jpg"></image>
+</view>
+
+<view class="middle">
+  <view class="middle-text">价格:120</view>
+  <button class="middle-btn">购买</button>
+</view>
+
+<view class="desc">
+<view class="border-line"></view>
+<view class="desc-text">本课程对沉浸式虚拟现实、  全实景虚拟现实和虑实结合的增强现实等技术进行了一个入门级的讲解,意在实的开发队伍中来。
+基本概念、基本原理，以及基于Unity平台的虚拟现实开发方法和开发实例。该课程系统全面、深入浅出、易学易会、实例讲解，适合于虚拟现实开发的初学者学习。
+</view>
+<view class="border-line-2"></view>
+</view>
+
+
+<view class="bottom">
+  <image src="/res/icons/shop.png" class="bottom-shop"></image>
+  <view class="bottom-text">0件商品 0元</view>
+  <button class="bottom-btn" bindtap="gotobook">生成订单</button>
+</view>

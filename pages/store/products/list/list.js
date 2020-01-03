@@ -36,6 +36,16 @@ Page({
   },
   onShareAppMessage: function () {
     console.log("onShareAppMessage")
+  },
+  godetails:function(){
+   wx.navigateTo({
+     url: '/pages/store/products/detail/detail',
+     success:function(res){
+       console.log("success");
+     },
+     fail:function(res){
+       console.log("fail!");
+     }
+   }) 
   }
-
 });
