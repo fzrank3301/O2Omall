@@ -1,3 +1,53 @@
 <view class="top-order">
-  <view>订单号:1625498256542</view>
+  <view class="order-id">订单号:1625498256542</view>
+  <view class="order-status">待支付</view>
+</view>
+
+<view class="border-line"></view>
+
+<view class="list-desc">商品清单</view>
+
+<view class="border-line"></view>
+
+<view class="list-context">
+  <image class="list-pic" src="/res/manager/tabs/bg1.jpg"></image>
+  <view class="list-text">
+    <view class="list-text-desc">openstack课程</view>
+    <view class="list-text-num">120元 X 1</view>
+  </view>
+</view>
+
+<view class="border-line"></view>
+
+<view class="total">合计:120元</view>
+
+<view class="dist-desc">配送信息</view>
+
+<view class="border-line-2"></view>
+
+<view class="dist-context">
+  <image class="dist-pic" src="/res/icons/lc.png"></image>
+  <view class="dist-text">
+     <view class="dist-text-num">XXX 139XXXXXXX</view>
+    <view class="dist-text-local">无锡市太湖西大道2188号</view>
+  </view>
+</view>
+
+<view class="border-line"></view>
+
+
+
+<view class="pay">
+  <view class="pay-text">选择支付方式</view>
+  <view class="border-line-2"></view>
+  <radio-group class="radio-group">
+    <radio class="radio-vip">会员卡余额 (可用456元)</radio>
+    <view class="border-line-2"></view>
+    <radio class="radio-weixin">微信支付</radio>
+  </radio-group>
+</view>
+
+
+<view class="bottom">
+    <button class="bottom-btn">付款</button>
 </view>

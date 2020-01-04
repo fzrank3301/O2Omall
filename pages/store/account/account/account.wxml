@@ -12,26 +12,26 @@
     <image class="mid-img" src="/res/icons/1.png"></image>
     <view class="text">余额</view>
     <view class="money">￥10</view>
-    <view class="charge">充值</view>
+    <view class="charge" bindtap="gotoprofile">充值</view>
   </view>
   <view class="border-line-2"></view>
 </view>
 
 
 <view class="list">
-  <view class="list-f">
+  <view class="list-f" bindtap="gotopayout">
     <image class="list-pic" src="/res/icons/2.png"></image>
     <view class="list-text">消费记录</view>
     <image class="list-row" src="/res/icons/right.png"></image>
   </view>
   <view class="border-line-3"></view>
-    <view class="list-f">
+    <view class="list-f" bindtap="gotopayin">
     <image class="list-pic" src="/res/icons/3.png"></image>
     <view class="list-text">充值记录</view>
     <image class="list-row" src="/res/icons/right.png"></image>
   </view>
   <view class="border-line-3"></view>
-    <view class="list-f">
+    <view class="list-f" bindtap="gotoincome">
     <image class="list-pic" src="/res/icons/4.png"></image>
     <view class="list-text">我的资料</view>
     <image class="list-row" src="/res/icons/right.png"></image>

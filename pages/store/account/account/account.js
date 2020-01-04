@@ -24,5 +24,25 @@ Page({
   },
   onShareAppMessage: function () {
     console.log("onShareAppMessage")
+  },
+  gotoprofile:function(){
+    wx.navigateTo({
+      url: '/pages/store/account/profile/profile',
+    })
+  },
+  gotopayout:function(res){
+    wx.navigateTo({
+      url: '/pages/store/history/payout/payout',
+    })
+  },
+  gotopayin: function (res) {
+    wx.navigateTo({
+      url: '/pages/store/history/payin/payin',
+    })
+  },
+  gotoincome: function (res) {
+    wx.navigateTo({
+      url: '/pages/store/account/income/income',
+    })
   }
 })

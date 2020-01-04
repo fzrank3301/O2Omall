@@ -1,0 +1,31 @@
+<view class="border-line"></view>
+<view class="income-top">
+  <view class="top-list">姓名</view>
+  <view class="top-list">tjpccy</view>
+  <view class="top-list">联系电话</view>
+  <view class="top-list">182398765</view>
+</view>
+<view class="border-line"></view>
+
+<view class="income-list">
+  <view class="list-context">
+    <view class="context-text">收货地址(家)</view>
+    <image class="context-img" src="/res/icons/lc.png"></image>
+  </view>
+  <input value="请填写收货地址" class="list-input"></input>
+</view>
+<view class="border-line"></view>
+
+<view class="income-list">
+  <view class="list-context">
+    <view class="context-text">收货地址(公司)</view>
+    <image class="context-img-2" src="/res/icons/lc.png"></image>
+  </view>
+  <input value="请填写收货地址" class="list-input"></input>
+</view>
+<view class="border-line"></view>
+
+
+<view class="bottom">
+  <button class="bottom-btn">确认</button>
+</view>

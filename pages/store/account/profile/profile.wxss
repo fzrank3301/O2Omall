@@ -1,0 +1,55 @@
+.border-line{
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 1px;
+  width: 95%;
+  background-color:rgba(128, 128, 128, 0.226);
+}
+
+.top{
+  height: 130px;
+}
+
+.top-input{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 345px;
+  color: gray;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+.group-member{
+  display:  flex;
+  flex-direction: row;
+}
+
+.member-img{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+
+.memeber-text{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.memeber-radio{
+  margin-top: 15px;
+  margin-left: 200px;
+}
+
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:45px; 
+}
+
+.bottom-btn{
+  background-color: red;
+  color: white;
+}

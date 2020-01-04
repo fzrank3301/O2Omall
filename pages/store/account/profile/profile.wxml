@@ -1,0 +1,35 @@
+<view class="top">
+  <input class="top-input" value="请输入充值金额"></input>
+</view>
+
+
+
+<view>
+  <radio-group class="radiogroup">
+    <view class="group-member">
+      <image class="member-img" src="/res/icons/icon_qp.png"></image>
+      <view class="memeber-text">快捷支付</view>
+      <radio class="memeber-radio" checked="true" ></radio>
+    </view>
+  <view class="border-line"></view>
+
+    <view class="group-member">
+      <image class="member-img" src="/res/icons/icon_yl.png"></image>
+      <view class="memeber-text">银联支付</view>
+      <radio class="memeber-radio"></radio>
+    </view>
+  <view class="border-line"></view>
+
+    <view class="group-member">
+      <image class="member-img" src="/res/icons/icon_wx.png"></image>
+      <view class="memeber-text">微信支付</view>
+      <radio class="memeber-radio"></radio>
+    </view>
+  <view class="border-line"></view>
+  </radio-group>
+</view>
+
+
+<view class="bottom">
+  <button class="bottom-btn">确认</button>
+</view>

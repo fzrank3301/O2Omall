@@ -1,0 +1,18 @@
+<view class="border-line"></view>
+<view class="list">
+  <view class="left">
+    <view class="left-context">日期:2018-01-01</view>
+    <view class="left-context-2">单号:156254985426</view>
+  </view>
+  <view class="right">+100</view>
+</view>
+<view class="border-line"></view>
+
+<view class="list">
+  <view class="left">
+    <view class="left-context">日期:2018-01-01</view>
+    <view class="left-context-2">单号:156254985426</view>
+  </view>
+  <view class="right">+100</view>
+</view>
+<view class="border-line"></view>

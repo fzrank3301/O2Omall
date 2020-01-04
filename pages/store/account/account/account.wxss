@@ -71,11 +71,17 @@
   border: 2px solid red;
   color: red;
   text-align: center;
-  align-items: center;
+  line-height: 30px;
+  padding: 0;
+}
+
+
+.nav{
+
 }
 
 .border-line-2{
-    margin-top: 10px;
+  margin-top: 10px;
   margin-left: 15px;
   height: 1px;
   width: 90%;
@@ -111,7 +117,7 @@
 .list-text{
   margin-left: 14px;
   margin-top: 3px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .list-row{

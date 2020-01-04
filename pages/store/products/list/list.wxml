@@ -12,22 +12,22 @@
 
 <!-- 四个按钮 -->
 <view class="menu">
-  <view class="menu-item">
+  <view class="menu-item" bindtap="gotoprofile">
     <image class="menu-item-img" src="/res/icons/1.png"></image>
     <view class="menu-item-text">账户余额</view>
   </view>
 
-  <view class="menu-item">
+  <view class="menu-item" bindtap="gotopayin">
     <image class="menu-item-img" src="/res/icons/2.png"></image>
     <view class="menu-item-text">充值记录</view>
   </view>
 
-  <view class="menu-item">
+  <view class="menu-item" bindtap="gotopayout">
     <image class="menu-item-img" src="/res/icons/3.png"></image>
     <view class="menu-item-text">消费记录</view>
   </view>
 
-  <view class="menu-item">
+  <view class="menu-item" bindtap="gotoincome">
     <image class="menu-item-img" src="/res/icons/4.png"></image>
     <view class="menu-item-text">个人资料</view>
   </view>
@@ -47,7 +47,7 @@
     <button class="ware-button">购买</button>
   </view>
 </view> -->
-<block wx:for="{{message}}">
+<block wx:for="{{message}}" wx:key="key">
 <view class="wares">
   <view class="ware-one">
     <image class="ware-pic" src="{{item.pic}}"></image>
